@@ -1,0 +1,7 @@
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/dto/ProductResponse.java
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/service/ProductService.java
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/ProductServiceApplication.java
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/controller/ProductController.java
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/dto/ProductRequest.java
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/repository/ProductRepository.java
+/Users/fusingvoon/Documents/Java/microservices-parent/product-service/src/main/java/com/jolly/productservice/model/Product.java

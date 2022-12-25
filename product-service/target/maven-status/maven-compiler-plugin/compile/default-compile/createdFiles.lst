@@ -1,0 +1,10 @@
+com/jolly/productservice/model/Product$ProductBuilder.class
+com/jolly/productservice/service/ProductService.class
+com/jolly/productservice/model/Product.class
+com/jolly/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/jolly/productservice/dto/ProductResponse.class
+com/jolly/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/jolly/productservice/controller/ProductController.class
+com/jolly/productservice/ProductServiceApplication.class
+com/jolly/productservice/dto/ProductRequest.class
+com/jolly/productservice/repository/ProductRepository.class
