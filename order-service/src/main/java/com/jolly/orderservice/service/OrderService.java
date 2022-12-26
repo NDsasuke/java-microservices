@@ -7,6 +7,7 @@ import com.jolly.orderservice.model.Order;
 import com.jolly.orderservice.model.OrderLineItems;
 import com.jolly.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -18,6 +19,7 @@ import java.util.UUID;
 @Service
 @RequiredArgsConstructor
 @Transactional
+@Slf4j
 public class OrderService {
     private final OrderRepository orderRepository;
     private final WebClient webClient;
@@ -44,10 +46,15 @@ public class OrderService {
 
         assert inventoryResponses != null;
         boolean allProductsInStock = Arrays.stream(inventoryResponses).allMatch(InventoryResponse::isInStock);
+        List<String> productsNotInStock = Arrays.stream(inventoryResponses)
+                .filter(inventoryResponse -> !inventoryResponse.isInStock())
+                .map(InventoryResponse::getSkuCode)
+                .toList();
 
         if (allProductsInStock) {
             orderRepository.save(order);
         } else {
+            log.error("Products not in stock: {}", productsNotInStock);
             throw new IllegalArgumentException("Product is not in stock, please try again later.");
         }
     }
