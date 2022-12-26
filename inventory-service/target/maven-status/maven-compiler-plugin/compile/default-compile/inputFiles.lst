@@ -1,5 +1,6 @@
 /Users/fusingvoon/Documents/Java/microservices-parent/inventory-service/src/main/java/com/jolly/inventoryservice/InventoryServiceApplication.java
 /Users/fusingvoon/Documents/Java/microservices-parent/inventory-service/src/main/java/com/jolly/inventoryservice/controller/InventoryController.java
 /Users/fusingvoon/Documents/Java/microservices-parent/inventory-service/src/main/java/com/jolly/inventoryservice/service/InventoryService.java
+/Users/fusingvoon/Documents/Java/microservices-parent/inventory-service/src/main/java/com/jolly/inventoryservice/dto/InventoryResponse.java
 /Users/fusingvoon/Documents/Java/microservices-parent/inventory-service/src/main/java/com/jolly/inventoryservice/repository/InventoryRepository.java
 /Users/fusingvoon/Documents/Java/microservices-parent/inventory-service/src/main/java/com/jolly/inventoryservice/model/Inventory.java
