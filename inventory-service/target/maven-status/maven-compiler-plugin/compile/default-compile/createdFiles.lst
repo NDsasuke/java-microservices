@@ -1,0 +1,7 @@
+com/jolly/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/jolly/inventoryservice/service/InventoryService.class
+com/jolly/inventoryservice/dto/InventoryResponse.class
+com/jolly/inventoryservice/repository/InventoryRepository.class
+com/jolly/inventoryservice/controller/InventoryController.class
+com/jolly/inventoryservice/model/Inventory.class
+com/jolly/inventoryservice/InventoryServiceApplication.class

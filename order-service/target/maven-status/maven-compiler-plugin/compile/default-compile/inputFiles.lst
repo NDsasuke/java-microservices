@@ -1,6 +1,8 @@
 /Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/repository/OrderRepository.java
 /Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/OrderServiceApplication.java
+/Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/dto/InventoryResponse.java
 /Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/service/OrderService.java
+/Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/config/WebClientConfig.java
 /Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/model/Order.java
 /Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/controller/OrderController.java
 /Users/fusingvoon/Documents/Java/microservices-parent/order-service/src/main/java/com/jolly/orderservice/dto/OrderRequest.java

@@ -17,7 +17,7 @@ public class InventoryService {
     private final InventoryRepository inventoryRepository;
 
     @Transactional(readOnly = true)
-    @SneakyThrows
+//    @SneakyThrows
     public List<InventoryResponse> isInStock(List<String> skuCode) {
         // to simulate timeout
 //        log.info("Wait started");
