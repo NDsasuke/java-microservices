@@ -6,6 +6,7 @@ This repo sought to replicate a POS system in a microservice pattern
 ## built:
 Api-Gateway
   - Using Spring Cloud Gateway
+  - Using Keycloak as auth server
 
 Discovery Server
   - Service discovery using Netflix-Eureka
@@ -30,7 +31,6 @@ Notification Service
   
 Add-ons
   - Implemented Distributed Tracing with Brave and Zipkin
-  - Secure microservices using Keycloak
 
 ## enhancements:
 - Dockerize application
