@@ -14,6 +14,7 @@ Discovery Server
 Inventory Service
   - Inventory API to check if product is in stock
   - MySql DB
+  - Postgres DB on Docker
 
 Order Service
   - Order API synchronous communication with Inventory Service 
@@ -21,6 +22,8 @@ Order Service
   - Order API asynchronous communication with Notification Service
     - Implemented Kafka 
     - Kafka producer
+  - MySql DB
+  - Postgres DB on Docker
 
 Product Service
   - Product API to create and get products
