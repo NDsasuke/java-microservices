@@ -1,11 +1,12 @@
 com/jolly/orderservice/dto/InventoryResponse.class
-com/jolly/orderservice/repository/OrderRepository.class
-com/jolly/orderservice/config/WebClientConfig.class
 com/jolly/orderservice/model/OrderLineItems.class
 com/jolly/orderservice/controller/OrderController.class
 com/jolly/orderservice/service/OrderService.class
-com/jolly/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
-com/jolly/orderservice/model/Order.class
 com/jolly/orderservice/dto/OrderRequest.class
 com/jolly/orderservice/dto/OrderLineItemsDto.class
 com/jolly/orderservice/OrderServiceApplication.class
+com/jolly/orderservice/repository/OrderRepository.class
+com/jolly/orderservice/config/WebClientConfig.class
+com/jolly/orderservice/event/OrderPlacedEvent.class
+com/jolly/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/jolly/orderservice/model/Order.class
