@@ -31,10 +31,8 @@ Notification Service
   
 Add-ons
   - Implemented Distributed Tracing with Brave and Zipkin
-  - Dockerize application
-
-## enhancements:
-- Implement Prometheus and Grafana for monitoring
+  - Dockerized application
+  - Implemented Prometheus and Grafana for monitoring
 
 ## Update and push to Docker registry:
 ```bash
