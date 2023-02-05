@@ -36,12 +36,12 @@ Add-ons
 ## enhancements:
 - Implement Prometheus and Grafana for monitoring
 
-## Update proj:
+## Update push to Docker registry:
 ```bash
 mvn clean compile jib:build
 ```
 
-## Run proj:
+## Run project:
 ```bash
 docker compose up -d
 ```
