@@ -31,7 +31,17 @@ Notification Service
   
 Add-ons
   - Implemented Distributed Tracing with Brave and Zipkin
+  - Dockerize application
 
 ## enhancements:
-- Dockerize application
 - Implement Prometheus and Grafana for monitoring
+
+## Update proj:
+```bash
+mvn clean compile jib:build
+```
+
+## Run proj:
+```bash
+docker compose up -d
+```
