@@ -36,7 +36,7 @@ Add-ons
 ## enhancements:
 - Implement Prometheus and Grafana for monitoring
 
-## Update push to Docker registry:
+## Update and push to Docker registry:
 ```bash
 mvn clean compile jib:build
 ```
