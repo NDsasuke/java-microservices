@@ -1,4 +1,4 @@
-package com.jolly.apigateway;
+package com.jolly.apigateway.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
