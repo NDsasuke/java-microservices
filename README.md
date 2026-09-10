@@ -1,48 +1,37 @@
-# java-microservices
+# POS Microservices Architecture
 
-## aim:
-This repo sought to replicate a POS system in a microservice pattern
+A learning project that implements a retail point-of-sale backend using a microservice architecture.
 
-## built:
-Api-Gateway
-  - Using Spring Cloud Gateway
-  - Using Keycloak as auth server
+## Architecture
 
-Discovery Server
-  - Service discovery using Netflix-Eureka
+- **API Gateway** — Spring Cloud Gateway
+- **Service Discovery** — Netflix Eureka
+- **Authentication** — Keycloak
+- **Inventory Service** — REST API with MySQL/PostgreSQL persistence
+- **Order Service** — REST API with synchronous inventory communication
+- **Notification Service** — asynchronous event consumer
+- **Product Service** — REST API with MongoDB
 
-Inventory Service
-  - Inventory API to check if product is in stock
-  - MySql DB
-  - Postgres DB on Docker
+## Distributed Systems Features
 
-Order Service
-  - Order API synchronous communication with Inventory Service 
-    - Implemented Circuit Breaker with Resilience4j
-  - Order API asynchronous communication with Notification Service
-    - Implemented Kafka 
-    - Kafka producer
-  - MySql DB
-  - Postgres DB on Docker
+- Circuit breaking with **Resilience4j**
+- Asynchronous messaging with **Apache Kafka**
+- Distributed tracing with **Brave / Zipkin**
+- Application containerization with **Docker / Docker Compose**
+- Monitoring with **Prometheus and Grafana**
 
-Product Service
-  - Product API to create and get products
-  - Mongo DB
+## Running the Project
 
-Notification Service
-  - Kafka consumer
-  
-Add-ons
-  - Implemented Distributed Tracing with Brave and Zipkin
-  - Dockerized application
-  - Implemented Prometheus and Grafana for monitoring
+```bash
+docker compose up -d
+```
 
-## Update and push to Docker registry:
+To build and publish the application images with Jib:
+
 ```bash
 mvn clean compile jib:build
 ```
 
-## Run project:
-```bash
-docker compose up -d
-```
+## Purpose
+
+This project was created to explore practical concepts in microservices, service discovery, API gateways, authentication, synchronous and asynchronous service communication, resilience, observability, and containerized deployment.
